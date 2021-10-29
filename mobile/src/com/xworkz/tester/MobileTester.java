@@ -10,7 +10,11 @@ public class MobileTester {
 		MobileDAO dao = new MobileDAOImpl();
 		//dao.saveMobileEntity();
 		
-		dao.getMobileEntity();
+		//dao.getMobileEntity();
+		
+		//dao.updateMobileEntity();
+		
+		dao.deleteMobileEntity();
 	}
 
 }
